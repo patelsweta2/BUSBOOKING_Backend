@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 const { genders } = require("./booking.js");
+const validator = require("validator");
+const bcrypt = require("bcryptjs");
 
 const userSchema = new mongoose.Schema({
   fullName: {
@@ -32,6 +34,10 @@ const userSchema = new mongoose.Schema({
     required: [true, "Please enter your password"],
   },
 });
+
+userSchema.methods.comparePassword = async function (candidatePassword) {
+  return await bcrypt.compare(candidatePassword, this.password);
+};
 
 const userModel = mongoose.model("User", userSchema);
 
