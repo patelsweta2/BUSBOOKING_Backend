@@ -1,3 +1,4 @@
+require("dotenv").config();
 const nodemailer = require("nodemailer");
 
 const sendEmail = async (to, subject, text) => {
@@ -6,14 +7,14 @@ const sendEmail = async (to, subject, text) => {
     host: "smtp.gmail.com",
     port: 465,
     auth: {
-      user: "sweta0442@gmail.com",
-      pass: "xcbe dvac gaop ggrc",
+      user: process.env.SMPT_USERID,
+      pass: process.env.SMPT_PASS,
     },
     secure: true,
   });
 
   let mailOptions = {
-    from: "sweta0442@gmail.com",
+    from: process.env.SMPT_USERID,
     to: to,
     subject: subject,
     text: text,
