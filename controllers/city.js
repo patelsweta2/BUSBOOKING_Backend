@@ -1,35 +1,17 @@
-const cityModal = require("../models/city");
+const { getAllCities } = require("../services/cityService");
 
-const cityController = async (req, res) => {
+const router = require("express").Router();
+
+router.get("/cities", async (req, resp) => {
+  // sends list of cities
   try {
-    // Get the query parameter 'name' from the request
-    const { name } = req.query;
-
-    // Build the query object
-    let query = {};
-    if (name) {
-      query.name = { $regex: name, $options: "i" };
-    }
-
-    // Fetch cities based on the query
-    const cities = await cityModal.find(query).limit(5);
-    // Format the response
-    const response = {
-      cities: cities.map((city) => ({
-        cityId: city._id.toString(),
-        name: city.name,
-        state: city.state,
-      })),
-    };
-    res.status(200).json(response);
+    resp.status(200).json(getAllCities());
   } catch (error) {
-    res.status(500).json({
-      message: "server error",
-      error: error.message,
+    req.status(500).json({
+      message: "Server error",
+      error,
     });
   }
-};
+});
 
-module.exports = {
-  cityController,
-};
+module.exports = router;

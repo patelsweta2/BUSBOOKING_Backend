@@ -1,9 +1,7 @@
-const mongoose = require("mongoose");
+const { Schema, model } = require("mongoose");
 const { genders } = require("./booking.js");
-const validator = require("validator");
-const bcrypt = require("bcryptjs");
 
-const userSchema = new mongoose.Schema({
+const userSchema = new Schema({
   fullName: {
     type: String,
     required: [true, "Please enter your username"],
@@ -17,14 +15,13 @@ const userSchema = new mongoose.Schema({
   },
   dob: {
     type: Number,
-    required: true,
+    //required: true,
   },
   email: {
     // TODO: handle email validation
     type: String,
     required: [true, "Please enter your email"],
     unique: true,
-    validate: [validator.isEmail, "Please provide a valid email"],
   },
   contactNumber: {
     type: String,
@@ -33,12 +30,18 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: [true, "Please enter your password"],
   },
+  otp: {
+    type: String,
+  },
+  otpExpires: {
+    type: Number,
+  },
+  isEmailVerified: {
+    type: Boolean,
+    default: false,
+  },
 });
 
-userSchema.methods.comparePassword = async function (candidatePassword) {
-  return await bcrypt.compare(candidatePassword, this.password);
-};
-
-const userModel = mongoose.model("User", userSchema);
+const userModel = model("User", userSchema);
 
 module.exports = userModel;
