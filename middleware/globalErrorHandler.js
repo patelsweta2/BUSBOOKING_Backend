@@ -1,4 +1,4 @@
-const CustomError = require("../utils/createCustomError");
+const CustomError = require("../utils/createCustomeError");
 
 const Error = (err, req, res, next) => {
   err.statusCode = err.statusCode || 500;

@@ -1,5 +1,6 @@
 const { userSignUp } = require("../services/signupService");
 const CustomError = require("../utils/createCustomeError");
+const catchAsyncError = require("../middleware/catchAsyncError");
 
 const router = require("express").Router();
 

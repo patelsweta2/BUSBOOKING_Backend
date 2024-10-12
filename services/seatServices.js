@@ -1,6 +1,6 @@
 const tripModel = require("../models/trip.js");
 const { bookingModel } = require("../models/booking.js");
-const CustomError = require("../utils/createCustomError.js");
+const CustomError = require("../utils/createCustomeError.js");
 
 const getFormatSeatLayout = (seats, trip, bookings) => {
   return seats.map((s) => {

@@ -1,7 +1,6 @@
 const { bookTrip } = require("../services/bookingService");
 const authenticateUser = require("../utils/authenticateUser");
 const catchAsyncError = require("../middleware/catchAsyncError");
-const CustomError = require("../utils/createCustomeError");
 
 const router = require("express").Router();
 
