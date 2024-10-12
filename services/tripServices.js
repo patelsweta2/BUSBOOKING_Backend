@@ -1,8 +1,8 @@
-const tripModel = require("../models/trip.js");
-const CustomError = require("./../utils/createCustomError.js");
-const cityModel = require("../models/city.js");
-const busModel = require("../models/bus.js");
-const bookingModel = require("../models/bus.js");
+const tripModel = require("../models/trip");
+const CustomError = require("../utils/createCustomeError");
+const cityModel = require("../models/city");
+const busModel = require("../models/bus");
+const bookingModel = require("../models/booking");
 const { Types } = require("mongoose");
 
 const getAvailableSeats = async (bus, tripId) => {
@@ -25,14 +25,13 @@ const getTrips = async (query) => {
   today1159PM.setHours(23, 59, 59, 999);
 
   let searchFilter = {};
-
   if (today12AM.getTime() / 1000 > Number(travelDate)) {
-    throw new CustomError("Invalid Date", 400);
+    throw new CustomError("Invalid date", 400);
   }
 
   if (
     travelDate >= today12AM.getTime() / 1000 &&
-    travelDate <= today1159PM.getTime() / 1000
+    travelDate <= today1159PM.getTime()
   ) {
     searchFilter["startTime"] = {
       $gte: parseInt(Date.now() / 1000),
@@ -59,7 +58,6 @@ const getTrips = async (query) => {
   if (!sourceCity || !destinationCity) {
     throw new CustomError("Requested City not Found", 404);
   }
-
   const trips = await tripModel.find(searchFilter).populate("busId");
 
   const response = {};
@@ -78,15 +76,14 @@ const getTrips = async (query) => {
       if (minPrice > seatPrice.price) minPrice = seatPrice.price;
       if (maxPrice < seatPrice.price) maxPrice = seatPrice.price;
     });
-
     response.trips.push({
       busId: bus._id,
       tripId: trip._id,
       // used while booking any seats for this trip.
-      busPartner: bus.busPartener, //bus
+      busPartner: bus.busPartner,
       departureTime: trip.startTime,
-      arrivalTime: trip.endTime, // epoch time
-      amenities: bus.amenities, //bus
+      arrivalTime: trip.endTime,
+      amenities: bus.amenities,
       availableSeats: await getAvailableSeats(bus, trip._id),
       busType: bus.busType,
       minPrice,
@@ -95,8 +92,5 @@ const getTrips = async (query) => {
       droppingPoints: trip.droppingPoints,
     });
   }
-
   return response;
 };
-
-module.exports = getTrips;

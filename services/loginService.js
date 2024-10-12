@@ -1,53 +1,47 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const userModel = require("../models/user");
-const sendVerificationMail = require("../utils/emailUtils");
+const Otp = require("../models/otp");
+const CustomError = require("../utils/createCustomeError");
 
-const sendOtp = async ({ email }) => {
-  if (!email) {
-    throw new Error("Please enter your email Id or password");
+const userLogin = async ({ email, password }) => {
+  if (!email || !password) {
+    throw new CustomError("Please enter your email and password", 400);
   }
   try {
+    // Find user and otp record by email
     const user = await userModel.findOne({ email });
+    const otpRecord = await Otp.findOne({ email });
+
+    // check if user exists
     if (!user) {
-      throw new Error("User does not exists");
+      throw new CustomError("User does not exist", 404);
     }
-    const otp = Math.floor(100000 + Math.random() * 900000).toString();
-    user.otp = otp;
-    user.otpExpires = Date.now() + 10 * 60 * 1000;
-    await user.save();
-    await sendVerificationMail(user.email, otp);
-    return { message: "OTP has been sent to your email." };
+    // check if OTP record exists(email verification)
+    if (otpRecord === null) {
+      throw new CustomError("Verify your email before login", 401);
+    }
+    // compare the provided password with the hashed password
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
+      throw new CustomError("Invalid credentials", 401);
+    }
+
+    // create token payload and sign JWT token
+    const tokenData = {
+      userId: user._id,
+    };
+    const token = jwt.sign(tokenData, process.env.JWT_SECRET, {
+      expiresIn: "1d", // Token valid for 1 day
+    });
+    // return the generated token
+    return token;
   } catch (error) {
-    throw new Error(error.message);
+    throw new CustomError(
+      error.message || "Unknown error occurred during login",
+      500
+    );
   }
 };
 
-const verifyOtp = async ({ email, otp }) => {
-  const user = await userModel.findOne({ email });
-  if (!user) {
-    throw new Error("User does not exist");
-  }
-  // check if OTP has expire
-  if (user.otpExpires < Date.now()) {
-    user.otp = null;
-    user.otpExpires = null;
-    await user.save();
-    throw new Error("OTP has expired. Please request a new one.");
-  }
-
-  if (user.otp !== otp) {
-    throw new Error("Invalid OTP");
-  }
-  user.otp = null;
-  user.otpExpires = null;
-  await user.save();
-  const token = jwt.sign(
-    { userId: user._id, email: user.email },
-    process.env.JWT_SECRET,
-    { expiresIn: "1d" }
-  );
-  return { message: "Login Successfully", token };
-};
-
-module.exports = { sendOtp, verifyOtp, logoutService };
+module.exports = { userLogin };

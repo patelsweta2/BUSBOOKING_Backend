@@ -1,11 +1,11 @@
-const mongoose = require("mongoose");
+const { Schema, model } = require("mongoose");
 
 const StopPoint = {
   stopId: { type: Number, required: true },
   arrivalTime: { type: Number, required: true },
 };
 
-const tripSchema = new mongoose.Schema({
+const tripSchema = new Schema({
   source: {
     ref: "City",
     type: Schema.Types.ObjectId,
@@ -34,6 +34,6 @@ const tripSchema = new mongoose.Schema({
   },
 });
 
-const tripModel = mongoose.model("Trip", tripSchema);
+const tripModel = model("Trip", tripSchema);
 
 module.exports = tripModel;

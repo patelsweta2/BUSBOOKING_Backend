@@ -5,13 +5,13 @@ const sendVerificationMail = (email, otp) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.SMPT_USERID,
-        pass: process.env.SMPT_PASS,
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
     });
 
     const mailOptions = {
-      from: process.env.SMPT_USERID,
+      from: process.env.EMAIL_USER,
       to: email,
       subject: "Email Verification for Your App",
       text: `Your OTP for email verification is ${otp}. It is valid for 10 minutes.`,
@@ -19,10 +19,8 @@ const sendVerificationMail = (email, otp) => {
 
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
-        console.error("Error sending email:", error);
         reject("OTP sharing failed. Please try again.");
       } else {
-        console.log("Email sent: " + info.response);
         resolve("OTP sent successfully.");
       }
     });

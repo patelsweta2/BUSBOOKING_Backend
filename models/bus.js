@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const { Schema, model } = require("mongoose");
 
 const busTypes = {
   AC: "AC",
@@ -13,6 +13,7 @@ const amenities = [
   "CHARGING_PORT",
   "EMERGENCY_EXIT",
   "WATER",
+  "CCTV",
 ];
 
 const SeatTypes = ["SEATER", "SLEEPER"];
@@ -25,7 +26,7 @@ const Seat = {
 };
 
 // Bus Schema
-const busSchema = new mongoose.Schema({
+const busSchema = new Schema({
   busPartner: {
     type: String,
     required: [true, "Bus name is required"],
@@ -36,9 +37,8 @@ const busSchema = new mongoose.Schema({
     required: [true, "Bus Type is required"],
   },
   amenities: {
-    type: String,
+    type: [String], //changed string to array of string
     enum: amenities,
-    default: "",
   },
   busNumber: {
     type: String,
@@ -50,6 +50,6 @@ const busSchema = new mongoose.Schema({
   },
 });
 
-const busModel = mongoose.model("Bus", busSchema);
+const busModel = model("Bus", busSchema);
 
 module.exports = busModel;

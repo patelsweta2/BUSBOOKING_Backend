@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const { Schema, model } = require("mongoose");
 
 const stopPoint = {
   stopId: {
@@ -21,7 +21,7 @@ const stopPoint = {
   },
 };
 
-const citySchema = new mongoose.Schema({
+const citySchema = new Schema({
   name: {
     type: String,
     required: true,
@@ -37,12 +37,12 @@ const citySchema = new mongoose.Schema({
     type: Number,
   },
   stopPoints: [stopPoint],
-  pinCode: {
+  pincode: {
     type: Number,
     required: true,
   },
 });
 
-const cityModel = mongoose.model("City", citySchema);
+const cityModel = model("City", citySchema);
 
 module.exports = cityModel;

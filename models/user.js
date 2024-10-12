@@ -15,10 +15,9 @@ const userSchema = new Schema({
   },
   dob: {
     type: Number,
-    //required: true,
+    required: true,
   },
   email: {
-    // TODO: handle email validation
     type: String,
     required: [true, "Please enter your email"],
     unique: true,
@@ -29,16 +28,6 @@ const userSchema = new Schema({
   password: {
     type: String,
     required: [true, "Please enter your password"],
-  },
-  otp: {
-    type: String,
-  },
-  otpExpires: {
-    type: Number,
-  },
-  isEmailVerified: {
-    type: Boolean,
-    default: false,
   },
 });
 
