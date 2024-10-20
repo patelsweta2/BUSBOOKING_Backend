@@ -18,6 +18,7 @@ const Error = (err, req, res, next) => {
 };
 
 const handleDevelopmentError = (err, res) => {
+  console.log(err);
   res.status(err.statusCode).json({
     success: false,
     error: err,
@@ -44,7 +45,7 @@ const handleProductionError = (errCopy, res) => {
     const message = `Duplicate ${Object.keys(err.keyValue)} entered.`;
     errCopy = new ErrorHandler(message, 400);
   }
-
+  console.log(errCopy);
   res.status(errCopy.statusCode).json({
     success: false,
     message: errCopy.message,

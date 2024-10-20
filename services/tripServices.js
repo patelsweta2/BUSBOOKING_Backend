@@ -1,12 +1,11 @@
-const tripModel = require("../models/trip");
-const CustomError = require("../utils/createCustomeError");
-const cityModel = require("../models/city");
-const busModel = require("../models/bus");
-const bookingModel = require("../models/booking");
+const tripModel = require("../models/trip.js");
+const CustomError = require("./../utils/createCustomeError.js");
+const cityModel = require("../models/city.js");
+const busModel = require("../models/bus.js");
+const bookingModel = require("../models/bus.js");
 const { Types } = require("mongoose");
 
-const getAvailableSeats = async (bus, tripId) => {
-  const bookings = await bookingModel.find({ tripId });
+const getAvailableSeats = (bus, bookings) => {
   const totalSeat = bus.layout?.upperDeck.length + bus.layout.lowerDeck.length;
   let availableSeats = totalSeat;
   if (bookings.length) {
@@ -25,13 +24,14 @@ const getTrips = async (query) => {
   today1159PM.setHours(23, 59, 59, 999);
 
   let searchFilter = {};
+
   if (today12AM.getTime() / 1000 > Number(travelDate)) {
-    throw new CustomError("Invalid date", 400);
+    throw new CustomError("Invalid Date", 400);
   }
 
   if (
     travelDate >= today12AM.getTime() / 1000 &&
-    travelDate <= today1159PM.getTime()
+    travelDate <= today1159PM.getTime() / 1000
   ) {
     searchFilter["startTime"] = {
       $gte: parseInt(Date.now() / 1000),
@@ -58,15 +58,33 @@ const getTrips = async (query) => {
   if (!sourceCity || !destinationCity) {
     throw new CustomError("Requested City not Found", 404);
   }
-  const trips = await tripModel.find(searchFilter).populate("busId");
 
+  const tripFilterOjb = {
+    _id: 1,
+    startTime: 1,
+    endTime: 1,
+    prices: 1,
+    boardingPoints: 1,
+    droppingPoints: 1,
+  };
+  const trips = await tripModel
+    .find(searchFilter, tripFilterOjb)
+    .populate("busId", "_id busPartner amenities layout busType");
+
+  const tripIds = trips.map((item) => ({ tripId: item._id }));
+  let allBookigs = [];
+  if (tripIds.length > 0) {
+    allBookings = await bookingModel.find(
+      { $or: tripIds },
+      { seatsInfo: 1, tripId: 1 }
+    );
+  }
   const response = {};
   response.success = true;
   response.results = trips.length;
 
   response.boardingPoints = sourceCity?.stopPoints;
   response.dropingPoints = destinationCity?.stopPoints;
-
   response.trips = [];
   for (let trip of trips) {
     const bus = trip.busId;
@@ -76,15 +94,16 @@ const getTrips = async (query) => {
       if (minPrice > seatPrice.price) minPrice = seatPrice.price;
       if (maxPrice < seatPrice.price) maxPrice = seatPrice.price;
     });
+    const bookings = allBookings.filter((item) => item.tripId === trip._id);
     response.trips.push({
       busId: bus._id,
       tripId: trip._id,
       // used while booking any seats for this trip.
-      busPartner: bus.busPartner,
+      busPartner: bus.busPartner, //bus
       departureTime: trip.startTime,
-      arrivalTime: trip.endTime,
-      amenities: bus.amenities,
-      availableSeats: await getAvailableSeats(bus, trip._id),
+      arrivalTime: trip.endTime, // epoch time
+      amenities: bus.amenities, //bus
+      availableSeats: getAvailableSeats(bus, bookings),
       busType: bus.busType,
       minPrice,
       maxPrice,
@@ -92,5 +111,8 @@ const getTrips = async (query) => {
       droppingPoints: trip.droppingPoints,
     });
   }
+
   return response;
 };
+
+module.exports = getTrips;

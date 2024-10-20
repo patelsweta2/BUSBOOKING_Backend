@@ -1,0 +1,6492 @@
+[
+    {
+       "source" : "66f6dc80d74abab45cf62d55" , // mumbai to delhi
+       "busId" : "66f6dc80d74abab45cf62c9b",
+       "destination" : "66f6dc80d74abab45cf62d5e",
+       "boardingPoints" : [
+        {
+            "stopId" : "1001",
+            "arrivalTime": "1728960900"
+        },
+        {
+            "stopId" : "1002",
+            "arrivalTime": "1728960300"
+        },
+        {
+            "stopId" : "1003",
+            "arrivalTime": "1728961500"
+        },
+        {
+            "stopId" : "1004",
+            "arrivalTime": "1728961200"
+        },
+        {
+            "stopId" : "1005",
+            "arrivalTime" : "1728960600"
+        },
+        {
+            "stopId" : "1006",
+            "arrivalTime" : "1728961800"
+        },
+        {
+            "stopId" : "1007",
+            "arrivalTime" : "1728962100"
+        },
+        {
+            "stopId" : "1008",
+            "arrivalTime" : "1728963000"
+        }
+       ],
+        "droppingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1728985500"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1728986400"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1728985800"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1728986700"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1728987000"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1728986100"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1728987300"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1728989100"
+            }
+        ],
+        "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+        "startTime" : "1728960300",
+        "endTime" : "1728989100",
+        "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+    },
+    {
+        "source" : "66f6dc80d74abab45cf62d55" ,// mumbai to delhi
+        "busId" : "66f6dc80d74abab45cf62cc0",
+        "destination" : "66f6dc80d74abab45cf62d5e",
+        "boardingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1728982200"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1728981600"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1728982500"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1728981900"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1728982800"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1728983700"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1728983100"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1728984600"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1729009800"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1729011000"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1729010700"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1729011300"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1729011600"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1729011900"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1729012500"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1729014600"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "1000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2400"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "2400"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "1200"
+            },{
+                "seatNumber" : "U15",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "850"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "2340"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728981600",
+         "endTime" : "1729014600",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Ramu Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d5e" , // Delhi to mumbai
+        "busId" : "66f6dc80d74abab45cf62d0a",
+        "destination" : "66f6dc80d74abab45cf62d55",
+        "boardingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1728960900"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1728960300"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1728961500"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1728961200"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1728960600"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1728961800"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1728962100"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1728963000"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1728985500"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1728986400"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1728985800"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1728986700"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1728987000"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1728986100"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1728987300"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1728989100"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728960300",
+         "endTime" : "1728989100",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Shivam Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d5e" , // Delhi to mumbai
+        "busId" : "66f6dc80d74abab45cf62d2f",
+        "destination" : "66f6dc80d74abab45cf62d55",
+        "boardingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1728982200"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1728981600"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1728982500"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1728981900"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1728982800"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1728983700"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1728983100"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1728984600"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1729009800"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1729011000"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1729010700"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1729011300"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1729011600"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1729011900"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1729012500"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1729014600"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "1000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2400"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "2400"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "1200"
+            },{
+                "seatNumber" : "U15",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "850"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "2340"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728981600",
+         "endTime" : "1729014600",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Shivam Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d55" , // mumbai to kolkata
+        "busId" : "66f6dc80d74abab45cf62d2f",
+        "destination" : "66f6dc80d74abab45cf62d70",
+        "boardingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1728982200"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1728981600"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1728982500"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1728981900"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1728982800"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1728983700"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1728983100"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1728984600"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1729009800"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1729011000"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1729010700"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1729011300"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1729011600"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1729011900"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1729012500"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1729014600"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "1000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2400"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "2400"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "1200"
+            },{
+                "seatNumber" : "U15",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "850"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "2340"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728981600",
+         "endTime" : "1729014600",
+         "driverDetails" : {}
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d70" , //kolkata to mumbai
+        "busId" : "66f6dc80d74abab45cf62ce5",
+        "destination" : "66f6dc80d74abab45cf62d55",
+        "boardingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1728982200"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1728981600"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1728982500"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1728981900"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1728982800"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1728983700"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1728983100"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1728984600"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1729009800"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1729011000"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1729010700"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1729011300"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1729011600"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1729011900"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1729012500"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1729014600"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728981600",
+         "endTime" : "1729014600",
+         "driverDetails" : {}
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d70" , //kolkata to mumbai
+        "busId" : "66f6dc80d74abab45cf62c9b",
+        "destination" : "66f6dc80d74abab45cf62d55",
+        "boardingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1728960900"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1728960300"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1728961500"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1728961200"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1728960600"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1728961800"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1728962100"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1728963000"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1728985500"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1728986400"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1728985800"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1728986700"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1728987000"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1728986100"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1728987300"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1728989100"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "1000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2400"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "2400"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "1200"
+            },{
+                "seatNumber" : "U15",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "850"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "2340"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728960300",
+         "endTime" : "1728989100",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d55" , // mumbai to kolkata
+        "busId" : "66f6dc80d74abab45cf62d0a",
+        "destination" : "66f6dc80d74abab45cf62d70",
+        "boardingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1728960900"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1728960300"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1728961500"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1728961200"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1728960600"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1728961800"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1728962100"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1728963000"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1728985500"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1728986400"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1728985800"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1728986700"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1728987000"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1728986100"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1728987300"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1728989100"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728960300",
+         "endTime" : "1728989100",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d55" , // mumbai to bangaluru
+        "busId" : "66f6dc80d74abab45cf62d2f",
+        "destination" : "66f6dc80d74abab45cf62d67",
+        "boardingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1728960900"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1728960300"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1728961500"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1728961200"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1728960600"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1728961800"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1728962100"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1728963000"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1728985500"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1728986400"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1728985800"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1728986700"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1728987000"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1728986100"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1728987300"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1728989100"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728960300",
+         "endTime" : "1728989100",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d55" , // mumbai to bangaluru
+        "busId" : "66f6dc80d74abab45cf62d0a",
+        "destination" : "66f6dc80d74abab45cf62d67",
+        "boardingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1728952800"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1728953700"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1728953400"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1728953100"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1728954000"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1728954300"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1728954900"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1728955800"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1728988800"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1728988200"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1728989100"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1728990600"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1728990000"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1728990900"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1728991800"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1728993000"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728952800",
+         "endTime" : "1728993000",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d55" , // mumbai to bangaluru
+        "busId" : "66f6dc80d74abab45cf62cc0",
+        "destination" : "66f6dc80d74abab45cf62d67",
+        "boardingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1729003200"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1729002600"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1729003800"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1729005000"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1729004400"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1729005300"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1729004700"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1729006200"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1729043400"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1729042800"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1729043100"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1729044000"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1729044600"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1729044300"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1729045500"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1729045800"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "1000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2400"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "2400"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "1200"
+            },{
+                "seatNumber" : "U15",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "850"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "2340"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1729002600",
+         "endTime" : "1729045800",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d55" , // mumbai to bangluru
+        "busId" : "66f6dc80d74abab45cf62c9b",
+        "destination" : "66f6dc80d74abab45cf62d67",
+        "boardingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1728991800"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1728992400"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1728993000"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1728992700"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1728994200"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1728993600"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1728995100"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1728995400"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1729043400"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1729042800"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1729044600"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1729044000"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1729044900"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1729045500"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1729043100"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1729045800"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728991800",
+         "endTime" : "1729045800",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d67" , //bangluru to mumbai
+        "busId" : "66f6dc80d74abab45cf62ce5",
+        "destination" : "66f6dc80d74abab45cf62d55",
+        "boardingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1728952800"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1728953700"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1728953400"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1728953100"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1728954000"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1728954300"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1728954900"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1728955800"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1728988800"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1728988200"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1728989100"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1728990600"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1728990000"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1728990900"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1728991800"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1728993000"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728952800",
+         "endTime" : "1728993000",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d67" , //bangluru to mumbai
+        "busId" : "66f6dc80d74abab45cf62cc0",
+        "destination" : "66f6dc80d74abab45cf62d55",
+        "boardingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1728960900"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1728960300"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1728961500"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1728961200"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1728960600"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1728961800"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1728962100"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1728963000"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1728985500"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1728986400"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1728985800"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1728986700"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1728987000"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1728986100"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1728987300"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1728989100"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728960300",
+         "endTime" : "1728989100",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Ramu Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d67" , //bangluru to mumbai
+        "busId" : "66f6dc80d74abab45cf62d2f",
+        "destination" : "66f6dc80d74abab45cf62d55",
+        "boardingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1728982200"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1728981600"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1728982500"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1728981900"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1728982800"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1728983700"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1728983100"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1728984600"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "1001",
+                "arrivalTime": "1729009800"
+            },
+            {
+                "stopId" : "1002",
+                "arrivalTime": "1729011000"
+            },
+            {
+                "stopId" : "1003",
+                "arrivalTime": "1729010700"
+            },
+            {
+                "stopId" : "1004",
+                "arrivalTime": "1729011300"
+            },
+            {
+                "stopId" : "1005",
+                "arrivalTime" : "1729011600"
+            },
+            {
+                "stopId" : "1006",
+                "arrivalTime" : "1729011900"
+            },
+            {
+                "stopId" : "1007",
+                "arrivalTime" : "1729012500"
+            },
+            {
+                "stopId" : "1008",
+                "arrivalTime" : "1729014600"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "8000"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728981600",
+         "endTime" : "1729014600",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Ramu Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d67" , //bangluru to chennai
+        "busId" : "66f6dc80d74abab45cf62c9b",
+        "destination" : "66f6dc80d74abab45cf62d79",
+        "boardingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1728982200"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1728981600"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1728982500"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1728981900"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1728982800"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1728983700"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1728983100"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1728984600"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "5001",
+                "arrivalTime": "1729009800"
+            },
+            {
+                "stopId" : "5002",
+                "arrivalTime": "1729011000"
+            },
+            {
+                "stopId" : "5003",
+                "arrivalTime": "1729010700"
+            },
+            {
+                "stopId" : "5004",
+                "arrivalTime": "1729011300"
+            },
+            {
+                "stopId" : "5005",
+                "arrivalTime" : "1729011600"
+            },
+            {
+                "stopId" : "5006",
+                "arrivalTime" : "1729011900"
+            },
+            {
+                "stopId" : "5007",
+                "arrivalTime" : "1729012500"
+            },
+            {
+                "stopId" : "5008",
+                "arrivalTime" : "1729014600"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "950"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "8000"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728981600",
+         "endTime" : "1729014600",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Ramu Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d67" , //bangluru to chennai
+        "busId" : "66f6dc80d74abab45cf62cc0",
+        "destination" : "66f6dc80d74abab45cf62d79",
+        "boardingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1728982200"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1728981600"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1728982500"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1728981900"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1728982800"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1728983700"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1728983100"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1728984600"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "5001",
+                "arrivalTime": "1729009800"
+            },
+            {
+                "stopId" : "5002",
+                "arrivalTime": "1729011000"
+            },
+            {
+                "stopId" : "5003",
+                "arrivalTime": "1729010700"
+            },
+            {
+                "stopId" : "5004",
+                "arrivalTime": "1729011300"
+            },
+            {
+                "stopId" : "5005",
+                "arrivalTime" : "1729011600"
+            },
+            {
+                "stopId" : "5006",
+                "arrivalTime" : "1729011900"
+            },
+            {
+                "stopId" : "5007",
+                "arrivalTime" : "1729012500"
+            },
+            {
+                "stopId" : "5008",
+                "arrivalTime" : "1729014600"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728981600",
+         "endTime" : "1729014600",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Ramu Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d67" , //bangluru to chennai
+        "busId" : "66f6dc80d74abab45cf62d0a",
+        "destination" : "66f6dc80d74abab45cf62d79",
+        "boardingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1728960900"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1728960300"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1728961500"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1728961200"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1728960600"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1728961800"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1728962100"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1728963000"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "5001",
+                "arrivalTime": "1728985500"
+            },
+            {
+                "stopId" : "5002",
+                "arrivalTime": "1728986400"
+            },
+            {
+                "stopId" : "5003",
+                "arrivalTime": "1728985800"
+            },
+            {
+                "stopId" : "5004",
+                "arrivalTime": "1728986700"
+            },
+            {
+                "stopId" : "5005",
+                "arrivalTime" : "1728987000"
+            },
+            {
+                "stopId" : "5006",
+                "arrivalTime" : "1728986100"
+            },
+            {
+                "stopId" : "5007",
+                "arrivalTime" : "1728987300"
+            },
+            {
+                "stopId" : "5008",
+                "arrivalTime" : "1728989100"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "4500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728960300",
+         "endTime" : "1728989100",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Ramu Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d79" , //chennai to bangaluru
+        "busId" : "66f6dc80d74abab45cf62d2f",
+        "destination" : "66f6dc80d74abab45cf62d67",
+        "boardingPoints" : [
+            {
+                "stopId" : "5001",
+                "arrivalTime": "1728960900"
+            },
+            {
+                "stopId" : "5002",
+                "arrivalTime": "1728960300"
+            },
+            {
+                "stopId" : "5003",
+                "arrivalTime": "1728961500"
+            },
+            {
+                "stopId" : "5004",
+                "arrivalTime": "1728961200"
+            },
+            {
+                "stopId" : "5005",
+                "arrivalTime" : "1728960600"
+            },
+            {
+                "stopId" : "5006",
+                "arrivalTime" : "1728961800"
+            },
+            {
+                "stopId" : "5007",
+                "arrivalTime" : "1728962100"
+            },
+            {
+                "stopId" : "5008",
+                "arrivalTime" : "1728963000"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1728985500"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1728986400"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1728985800"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1728986700"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1728987000"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1728986100"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1728987300"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1728989100"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728960300",
+         "endTime" : "1728989100",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d79" , //chennai to bangaluru
+        "busId" : "66f6dc80d74abab45cf62d0a",
+        "destination" : "66f6dc80d74abab45cf62d67",
+        "boardingPoints" : [
+            {
+                "stopId" : "5001",
+                "arrivalTime": "1728952800"
+            },
+            {
+                "stopId" : "5002",
+                "arrivalTime": "1728953700"
+            },
+            {
+                "stopId" : "5003",
+                "arrivalTime": "1728953400"
+            },
+            {
+                "stopId" : "5004",
+                "arrivalTime": "1728953100"
+            },
+            {
+                "stopId" : "5005",
+                "arrivalTime" : "1728954000"
+            },
+            {
+                "stopId" : "5006",
+                "arrivalTime" : "1728954300"
+            },
+            {
+                "stopId" : "5007",
+                "arrivalTime" : "1728954900"
+            },
+            {
+                "stopId" : "5008",
+                "arrivalTime" : "1728955800"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1728988800"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1728988200"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1728989100"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1728990600"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1728990000"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1728990900"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1728991800"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1728993000"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728952800",
+         "endTime" : "1728993000",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d79" , //chennai to bangaluru
+        "busId" : "66f6dc80d74abab45cf62d2f",
+        "destination" : "66f6dc80d74abab45cf62d67",
+        "boardingPoints" : [
+            {
+                "stopId" : "5001",
+                "arrivalTime": "1729003200"
+            },
+            {
+                "stopId" : "5002",
+                "arrivalTime": "1729002600"
+            },
+            {
+                "stopId" : "5003",
+                "arrivalTime": "1729003800"
+            },
+            {
+                "stopId" : "5004",
+                "arrivalTime": "1729005000"
+            },
+            {
+                "stopId" : "5005",
+                "arrivalTime" : "1729004400"
+            },
+            {
+                "stopId" : "5006",
+                "arrivalTime" : "1729005300"
+            },
+            {
+                "stopId" : "5007",
+                "arrivalTime" : "1729004700"
+            },
+            {
+                "stopId" : "5008",
+                "arrivalTime" : "1729006200"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1729043400"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1729042800"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1729043100"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1729044000"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1729044600"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1729044300"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1729045500"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1729045800"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1729002600",
+         "endTime" : "1729045800",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d79" , //chennai to bangaluru
+        "busId" : "66f6dc80d74abab45cf62ce5",
+        "destination" : "66f6dc80d74abab45cf62d67",
+        "boardingPoints" : [
+            {
+                "stopId" : "5001",
+                "arrivalTime": "1728991800"
+            },
+            {
+                "stopId" : "5002",
+                "arrivalTime": "1728992400"
+            },
+            {
+                "stopId" : "5003",
+                "arrivalTime": "1728993000"
+            },
+            {
+                "stopId" : "5004",
+                "arrivalTime": "1728992700"
+            },
+            {
+                "stopId" : "5005",
+                "arrivalTime" : "1728994200"
+            },
+            {
+                "stopId" : "5006",
+                "arrivalTime" : "1728993600"
+            },
+            {
+                "stopId" : "5007",
+                "arrivalTime" : "1728995100"
+            },
+            {
+                "stopId" : "5008",
+                "arrivalTime" : "1728995400"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "3001",
+                "arrivalTime": "1729043400"
+            },
+            {
+                "stopId" : "3002",
+                "arrivalTime": "1729042800"
+            },
+            {
+                "stopId" : "3003",
+                "arrivalTime": "1729044600"
+            },
+            {
+                "stopId" : "3004",
+                "arrivalTime": "1729044000"
+            },
+            {
+                "stopId" : "3005",
+                "arrivalTime" : "1729044900"
+            },
+            {
+                "stopId" : "3006",
+                "arrivalTime" : "1729045500"
+            },
+            {
+                "stopId" : "3007",
+                "arrivalTime" : "1729043100"
+            },
+            {
+                "stopId" : "3008",
+                "arrivalTime" : "1729045800"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728991800",
+         "endTime" : "1729045800",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d70" , // kolkata to delhi
+        "busId" : "66f6dc80d74abab45cf62cc0",
+        "destination" : "66f6dc80d74abab45cf62d5e",
+        "boardingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1728960900"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1728960300"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1728961500"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1728961200"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1728960600"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1728961800"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1728962100"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1728963000"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1728985500"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1728986400"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1728985800"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1728986700"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1728987000"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1728986100"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1728987300"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1728989100"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+        "startTime" : "1728960300",
+        "endTime" : "1728989100",
+        "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d70" , // kolkata to delhi
+        "busId" : "66f6dc80d74abab45cf62ce5",
+        "destination" : "66f6dc80d74abab45cf62d5e",
+        "boardingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1728952800"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1728953700"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1728953400"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1728953100"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1728954000"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1728954300"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1728954900"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1728955800"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1728988800"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1728988200"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1728989100"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1728990600"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1728990000"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1728990900"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1728991800"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1728993000"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+        "startTime" : "1728952800",
+        "endTime" : "1728993000",
+        "driverDetails" : {
+           "contactNumber" : "+912345678923",
+           "name" : "Mahesh Kumar"
+       }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d70" , // kolkata to delhi
+        "busId" : "66f6dc80d74abab45cf62d0a",
+        "destination" : "66f6dc80d74abab45cf62d5e",
+        "boardingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1729003200"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1729002600"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1729003800"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1729005000"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1729004400"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1729005300"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1729004700"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1729006200"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1729043400"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1729042800"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1729043100"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1729044000"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1729044600"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1729044300"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1729045500"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1729045800"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+        "startTime" : "1729002600",
+        "endTime" : "1729045800",
+        "driverDetails" : {
+           "contactNumber" : "+912345678923",
+           "name" : "Mahesh Kumar"
+       }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d70" , // kolkata to delhi
+        "busId" : "66f6dc80d74abab45cf62d2f",
+        "destination" : "66f6dc80d74abab45cf62d5e",
+        "boardingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1728991800"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1728992400"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1728993000"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1728992700"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1728994200"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1728993600"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1728995100"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1728995400"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1729043400"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1729042800"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1729044600"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1729044000"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1729044900"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1729045500"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1729043100"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1729045800"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+        "startTime" : "1728991800",
+        "endTime" : "1729045800",
+        "driverDetails" : {
+           "contactNumber" : "+912345678923",
+           "name" : "Mahesh Kumar"
+       }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d70" , // kolkata to delhi
+        "busId" : "66f6dc80d74abab45cf62c9b",
+        "destination" : "66f6dc80d74abab45cf62d5e",
+        "boardingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1728982200"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1728981600"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1728982500"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1728981900"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1728982800"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1728983700"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1728983100"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1728984600"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1729009800"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1729011000"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1729010700"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1729011300"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1729011600"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1729011900"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1729012500"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1729014600"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+        "startTime" : "1728981600",
+        "endTime" : "1729014600",
+        "driverDetails" : {
+           "contactNumber" : "+912345678923",
+           "name" : "Ramu Kumar"
+       }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d5e" , // delhi to kolkata
+        "busId" : "66f6dc80d74abab45cf62ce5",
+        "destination" : "66f6dc80d74abab45cf62d70",
+        "boardingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1728982200"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1728981600"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1728982500"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1728981900"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1728982800"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1728983700"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1728983100"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1728984600"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1729009800"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1729011000"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1729010700"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1729011300"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1729011600"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1729011900"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1729012500"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1729014600"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "5000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "4000"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+         "startTime" : "1728981600",
+        "endTime" : "1729014600",
+        "driverDetails" : {
+           "contactNumber" : "+912345678923",
+           "name" : "Ramu Kumar"
+       }
+     },
+     {
+        "source" : "66f6dc80d74abab45cf62d5e" , // delhi to kolkata
+        "busId" : "66f6dc80d74abab45cf62cc0",
+        "destination" : "66f6dc80d74abab45cf62d70",
+        "boardingPoints" : [
+            {
+                "stopId" : "2001",
+                "arrivalTime": "1728960900"
+            },
+            {
+                "stopId" : "2002",
+                "arrivalTime": "1728960300"
+            },
+            {
+                "stopId" : "2003",
+                "arrivalTime": "1728961500"
+            },
+            {
+                "stopId" : "2004",
+                "arrivalTime": "1728961200"
+            },
+            {
+                "stopId" : "2005",
+                "arrivalTime" : "1728960600"
+            },
+            {
+                "stopId" : "2006",
+                "arrivalTime" : "1728961800"
+            },
+            {
+                "stopId" : "2007",
+                "arrivalTime" : "1728962100"
+            },
+            {
+                "stopId" : "2008",
+                "arrivalTime" : "1728963000"
+            }
+        ],
+         "droppingPoints" : [
+            {
+                "stopId" : "4001",
+                "arrivalTime": "1728985500"
+            },
+            {
+                "stopId" : "4002",
+                "arrivalTime": "1728986400"
+            },
+            {
+                "stopId" : "4003",
+                "arrivalTime": "1728985800"
+            },
+            {
+                "stopId" : "4004",
+                "arrivalTime": "1728986700"
+            },
+            {
+                "stopId" : "4005",
+                "arrivalTime" : "1728987000"
+            },
+            {
+                "stopId" : "4006",
+                "arrivalTime" : "1728986100"
+            },
+            {
+                "stopId" : "4007",
+                "arrivalTime" : "1728987300"
+            },
+            {
+                "stopId" : "4008",
+                "arrivalTime" : "1728989100"
+            }
+         ],
+         "prices" : [
+            {
+                "seatNumber" : "U1",
+                "price" : "1000"
+            },
+            {
+                "seatNumber" : "U4",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "U7",
+                "price" : "400"
+            },
+            {
+                "seatNumber" : "U10",
+                "price" : "5500"
+            },
+            {
+                "seatNumber" : "U13",
+                "price" : "6000"
+            },
+            {
+                "seatNumber" : "U16",
+                "price" : "400"
+            },
+            {
+                "seatNumber" : "U2",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "U5",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U8",
+                "price" : "2555"
+            },
+            {
+                "seatNumber" : "U11",
+                "price" : "600"
+            },
+            {
+                "seatNumber" : "U14",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "U17",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U3",
+                "price" : "700"
+            },
+            {
+                "seatNumber" : "U6",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U9",
+                "price" : "2500"
+            },
+            {
+                "seatNumber" : "U12",
+                "price" : "5000"
+            },{
+                "seatNumber" : "U15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "U18",
+                "price" : "2345"
+            },
+            {
+                "seatNumber" : "L1",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L4",
+                "price" : "900"
+            },
+            {
+                "seatNumber" : "L7",
+                "price" : "670"
+            },
+            {
+                "seatNumber" : "L10",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L13",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L16",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L2",
+                "price" : "450"
+            },
+            {
+                "seatNumber" : "L5",
+                "price" : "500"
+            },
+            {
+                "seatNumber" : "L8",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L11",
+                "price" : "800"
+            },
+            {
+                "seatNumber" : "L14",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L17",
+                "price" : "550"
+            },
+            {
+                "seatNumber" : "L3",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L6",
+                "price" : "560"
+            },
+            {
+                "seatNumber" : "L9",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L12",
+                "price" : "2000"
+            },
+            {
+                "seatNumber" : "L15",
+                "price" : "1200"
+            },
+            {
+                "seatNumber" : "L18",
+                "price" : "800"
+            }
+        ],
+        "startTime" : "1728960300",
+         "endTime" : "1728989100",
+         "driverDetails" : {
+            "contactNumber" : "+912345678923",
+            "name" : "Mahesh Kumar"
+        }
+     }
+]

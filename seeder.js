@@ -28,6 +28,7 @@ const importData = async () => {
   try {
     await User.deleteMany();
     // await Bus.deleteMany();
+
     await City.deleteMany();
     // delete data old
     await Trip.deleteMany();
@@ -43,7 +44,7 @@ const importData = async () => {
       ? createdCity.map((city) => city._id)
       : cities.map((city) => city._id);
 
-    let tripData = Array.from({ length: 1000 }, () => TripData[0]);
+    let tripData = Array.from({ length: 100000 }, () => TripData[0]);
 
     const sampleTrip = getFormatedTripData(
       tripData,
@@ -98,18 +99,18 @@ const getFormatedTripData = (
       boardingPoints.push(obj);
     });
 
-    let p = [500, 800, 1300, 1900];
+    let p = [500, 800, 1300, 1900, 2500];
     let prices = [];
     createdBuses[busidCount].layout?.upperDeck?.forEach((seat) => {
       prices.push({
         seatNumber: seat.seatNumber,
-        price: p[Math.floor(Math.random() * 4)],
+        price: p[Math.floor(Math.random() * 5)],
       });
     });
     createdBuses[busidCount].layout?.lowerDeck?.forEach((seat) => {
       prices.push({
         seatNumber: seat.seatNumber,
-        price: p[Math.floor(Math.random() * 4)],
+        price: p[Math.floor(Math.random() * 5)],
       });
     });
 

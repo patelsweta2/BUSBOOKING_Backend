@@ -1,13 +1,15 @@
 {
   "name": "busbooking_backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "data:import": "node --max-old-space-size=16384 seeder",
+    "data:destroy": "node seeder -d"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -22,5 +24,8 @@
     "nodemailer": "^6.9.14",
     "nodemon": "^3.1.4",
     "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0"
   }
 }

@@ -1,5 +1,3 @@
-const mongoose = require("mongoose");
-
 const cities = [
   {
     name: "Mumbai",
